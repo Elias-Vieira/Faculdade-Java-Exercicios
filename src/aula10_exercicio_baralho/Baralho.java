@@ -1,4 +1,4 @@
-package exercicio_baralho;
+package aula10_exercicio_baralho;
 
 import java.util.ArrayList;
 import java.util.HashSet;

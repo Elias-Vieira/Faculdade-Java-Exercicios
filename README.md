@@ -146,6 +146,21 @@ Desafio prático para aplicar conceitos de **orientação a objetos** em um cont
 - Implementação de método `imprimirCartas()` para exibir todas as cartas geradas.
 - Aplicação de encapsulamento e boas práticas de estruturação de código.
 
+
+## Aula 11 – Tratamento de Exceções
+💡 **Descrição:**  
+Desafio prático para aplicar conceitos de **tratamento de exceções** em Java, explorando desde erros básicos de entrada até a criação de exceções personalizadas e múltiplas. O objetivo é tornar os programas mais robustos e seguros contra falhas previsíveis.
+
+🎯 **Desafios trabalhados:**
+- Manipulação de exceções básicas com `try-catch` para entradas inválidas.
+- Criação de exceções personalizadas como `NumeroNaoPrimoException`, `SaldoInsuficienteException`, `ArquivoNaoEncontradoException` e `TrianguloInvalidoException`.
+- Implementação de lógica condicional para validação de dados e lançamento de exceções.
+- Uso de `throws` e `throw` para controle de fluxo em situações específicas.
+- Tratamento de múltiplas exceções em métodos da classe `Calculadora`.
+- Validação de senha com critérios específicos e lançamento de `SenhaFracaException`.
+- Aplicação de boas práticas na estruturação de código defensivo.
+
+
 ---
 
 ## ▶️ Como Executar
