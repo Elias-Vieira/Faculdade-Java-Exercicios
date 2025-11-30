@@ -161,6 +161,42 @@ Desafio prático para aplicar conceitos de **tratamento de exceções** em Java,
 - Aplicação de boas práticas na estruturação de código defensivo.
 
 
+## Aula 12 – Manipulação de Arquivos
+
+💡 **Descrição:**  
+Desafio prático para aplicar conceitos de **manipulação de arquivos em Java**, criando e lendo arquivos `.txt` a partir de entradas do usuário. O foco é entender como trabalhar com dados persistentes na raiz do projeto, garantindo cuidado com extensões, leitura e escrita.
+
+🎯 **Desafios trabalhados:**
+- Utilização da classe `Scanner` para receber do usuário o nome do arquivo desejado.
+- Garantia automática da extensão `.txt` por meio do método `garantirExtensaoTxt`.
+- Criação de arquivos de texto na raiz do projeto usando `FileWriter`, escrevendo um conteúdo inicial.
+- Leitura do conteúdo do arquivo linha a linha com `File` e `Scanner`, exibindo o resultado no console.
+- Tratamento de exceções de entrada/saída ao criar e ler arquivos, evitando falhas na execução.
+- Fechamento correto de recursos (`Scanner`, `FileWriter`, leitores) após o uso, prevenindo vazamento de recursos.
+- Aplicação de uma estrutura simples e reutilizável para manipulação de arquivos em projetos Java.
+
+
+## Aula 13 – Cálculo de Médias a partir de Arquivo
+
+💡 **Descrição:**  
+Desafio prático para aplicar **manipulação de arquivos e processamento de dados** em Java, lendo informações de alunos a partir de um arquivo texto, calculando suas médias e gerando um novo arquivo com os resultados já consolidados por série.
+
+🎯 **Desafios trabalhados:**
+- Leitura do arquivo `escola_DB.txt` contendo: nome, matrícula, série, nota 1, nota 2 e nota 3 de cada aluno.
+- Implementação da classe `CalculaNota` para:
+    - Ler todos os registros do arquivo de entrada.
+    - Calcular a média das três notas de cada aluno.
+    - Salvar em `media_2025.txt` apenas o nome, a série e a média.
+- Criação da classe `ExibirSerie` para:
+    - Ler o arquivo `media_2025.txt`.
+    - Permitir que o usuário informe uma série (entre 1 e 5) via `Scanner`.
+    - Exibir na tela o nome e a média de todos os alunos pertencentes à série informada.
+- Prática de parsing de linhas de texto (separação de campos, como por `;` ou `,`).
+- Uso de estruturas de repetição para percorrer os alunos e processar seus dados.
+- Consolidação de leitura, escrita e filtragem de dados em arquivos de texto em Java.
+
+
+
 ---
 
 ## ▶️ Como Executar
